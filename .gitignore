@@ -63,3 +63,4 @@ typings/
 # Mac
 .DS_Store
 cg-notes
+whiteList.txt
