@@ -1,0 +1,14 @@
+{
+  "name": "file-download-protector-app",
+  "version": "1.0.0",
+  "description": "Protects a file against download by using a whitelist of allowed email addresses",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lim Chooi Guan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
