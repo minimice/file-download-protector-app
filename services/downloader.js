@@ -1,3 +1,4 @@
+'use strict';
 var http = require('https');
 var fs = require('fs');
 
