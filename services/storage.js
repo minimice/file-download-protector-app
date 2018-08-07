@@ -8,7 +8,6 @@ const username = process.env.DBUSER || "MISSING-USER";
 const password = process.env.DBPASSWORD || "MISSING-PASSWORD";
 const address = process.env.DBADDRESS || 'MISSING-DATABASE';
 
-// 'mongodb://localhost/chat'
 const url = 'mongodb://' + username + ':' + password + address;
 const Schema = mongoose.Schema;
 const userSchema = new Schema({
